@@ -73,10 +73,6 @@ QR code generated successfully: wifi_qrcode.png
 - Python 3.6+
 - qrcode library with PIL support
 
-## Device Serial Number
-
-This project was created on device: **MJ0D947F**
-
 ## License
 
 MIT License - Feel free to use and modify as needed.
