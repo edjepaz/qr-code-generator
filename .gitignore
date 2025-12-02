@@ -1,0 +1,10 @@
+qrcode.png
+wifi_qrcode.png
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.vscode/
+.idea/
