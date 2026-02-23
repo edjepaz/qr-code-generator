@@ -1,0 +1,34 @@
+# This is a template manifest. 
+# You need to upload "dist/qr-code-generator.exe" to a public URL (e.g., GitHub Release)
+# and replace the URL_TO_EXE_HERE placeholder below.
+
+PackageIdentifier: User.QRCodeGenerator
+PackageVersion: 1.0.0
+PackageLocale: en-US
+Publisher: User
+PublisherUrl: https://github.com/StartAutomating
+PublisherSupportUrl: https://github.com/StartAutomating/issues
+Author: User
+PackageName: QR Code Generator
+PackageUrl: https://github.com/StartAutomating
+License: MIT
+LicenseUrl: https://github.com/StartAutomating/blob/main/LICENSE
+ShortDescription: A simple command-line QR code generator.
+Description: Generates QR codes for text, Wi-Fi, contacts, email, SMS, and geo-locations directly from the command line.
+Moniker: qrcode-gen
+Tags:
+  - qr
+  - qrcode
+  - generator
+  - python
+ReleaseDate: 2023-10-27
+Installers:
+  - Architecture: x64
+    InstallerType: portable-executable
+    InstallerUrl: URL_TO_EXE_HERE
+    InstallerSha256: 9CD6D1F86A488A13FB6E44DA0AB2007528830AA8BA829D49CE51B588E07CB01C # This matches dist/qr-code-generator.exe
+    ProductCode: User.QRCodeGenerator # Matches PackageIdentifier for portable
+    Commands:
+      - qrcode-gen
+ManifestType: singleton
+ManifestVersion: 1.4.0
